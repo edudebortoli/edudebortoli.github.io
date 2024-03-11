@@ -1,0 +1,45 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background: #121212 url("./images/noise.png");
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+
+header {
+  align-self: flex-end;
+}
+
+.flex-container {
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+}
+
+.flex-container > * {
+  margin: 1rem;
+  margin-right: 2rem;
+}
+
+header > a {
+  margin-left: 2rem;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #f3f3f3;
+  cursor: pointer;
+}
+
+a {
+  color: #bcbcbc;
+  text-decoration: none;
+}
